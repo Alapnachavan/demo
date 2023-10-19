@@ -1,6 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
-import "./components/about"
+import About from "./Components/About"
+import Body from './Components/Body'
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
         </a>
       </header>
       <About/>
+      <Body/>
     </div>
   );
 }
